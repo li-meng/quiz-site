@@ -1,6 +1,5 @@
 import json
 import boto3
-from time import gmtime, strftime
 
 dynamodb = boto3.resource('dynamodb')
 s3 = boto3.client('s3')
